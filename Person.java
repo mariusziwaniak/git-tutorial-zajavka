@@ -20,4 +20,8 @@ public class Person {
     public void hello(){
         System.out.println("Hello!");
     }
+
+    public String getName() {
+        return name;
+    }
 }
